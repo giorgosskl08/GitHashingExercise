@@ -1,0 +1,1 @@
+The argument is: 0708 SHA-256 hash of 0708 is: b56e59e3e3ea61711b844fd3410e00ee164ed39b78807a2ec6fc6ac136240940
