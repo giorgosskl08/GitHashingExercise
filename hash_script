@@ -1,0 +1,19 @@
+#!/bin/bash
+
+argument="$1"
+
+if [ -z "$argument" ]; then
+	echo "No argument given"
+	exit 1
+fi
+
+if ! [[ "$1" =~ ^[0-9]{4}$ ]]; then
+    echo "Error: Input must be a 4-digit integer."
+    exit 1
+fi
+
+echo "The argument is: $argument"
+
+hash=$(echo -n "$1" | sha256sum | awk '{print $1}')
+
+echo "SHA-256 hash of $1 is: $hash"
