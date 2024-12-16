@@ -1,4 +1,3 @@
-
 Παίρνω τα αρχεία από το /tmp/lab04 και μαζί το Makefile. Για να τα τρέξω
 μπορώ να χρησιμοποιήσω την εντολή make ή αν δεν θέλω να χρησιμοποιήσω το 
 Makefile, τότε μπορώ να κάνω "gcc example1.c -o example1", όπου το 1 το 
@@ -9,4 +8,14 @@ for i in {1..5}; do gcc example$i.c -o example$i; done
 To output της εντολής make είναι:
 gcc -Wall -g -o example1 example1.c gcc -Wall -g -o example2 example2.c gcc -Wall -g -o example3 example3.c gcc -Wall -g -o example4 example4.c gcc -Wall -g -o example5 example5.c
 
-και παράγει τα εκτελέσιμα αρχεία. 
+και παράγει τα εκτελέσιμα αρχεία. Για να τρέξω τα εκτελέσιμα αρχεία 
+μπορώ να κάνω:
+./example1
+./example2
+./example3
+./example4
+./example5
+
+και παίρνω ως output (δειγματικά για τα example1 και example2):
+
+
