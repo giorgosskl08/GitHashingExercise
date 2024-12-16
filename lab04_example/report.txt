@@ -18,4 +18,25 @@ gcc -Wall -g -o example1 example1.c gcc -Wall -g -o example2 example2.c gcc -Wal
 
 και παίρνω ως output (δειγματικά για τα example1 και example2):
 
+example1
+>>>>>>>>
+total 128
+-rwxrwxr-x 1 gsklaven gsklaven 19920 Dec 16 16:21 example1
+-rw-rw-r-- 1 gsklaven gsklaven   855 Dec 16 15:09 example1.c
+-rwxrwxr-x 1 gsklaven gsklaven 19592 Dec 16 16:21 example2
+-rw-rw-r-- 1 gsklaven gsklaven   347 Dec 16 15:09 example2.c
+-rwxrwxr-x 1 gsklaven gsklaven 19936 Dec 16 16:21 example3
+-rw-rw-r-- 1 gsklaven gsklaven   643 Dec 16 15:09 example3.c
+-rwxrwxr-x 1 gsklaven gsklaven 19936 Dec 16 16:21 example4
+-rw-rw-r-- 1 gsklaven gsklaven   670 Dec 16 15:09 example4.c
+-rwxrwxr-x 1 gsklaven gsklaven 20264 Dec 16 16:21 example5
+-rw-rw-r-- 1 gsklaven gsklaven  1622 Dec 16 15:09 example5.c
+-rw-rw-r-- 1 gsklaven gsklaven   564 Dec 16 15:10 Makefile
+-rw-rw-r-- 1 gsklaven gsklaven  1099 Dec 16 16:28 report.txt
+Parent Process: PID = 3074631, Created Child PID = 3074632
+Parent Process: Child has terminated.
 
+example2
+>>>>>>>
+Current Process ID (PID): 3074633
+Parent Process ID (PPID): 3074227
