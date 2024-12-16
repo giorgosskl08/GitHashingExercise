@@ -1,4 +1,4 @@
-Παίρνω τα αρχεία από το /tmp/lab04 και μαζί το Makefile. Για να τα τρέξω μπορώ να χρησιμοποιήσω την εντολή make ή αν δεν θέλω να χρησιμοποιήσω το Makefile, τότε μπορώ να κάνω "gcc example1.c -o example1", όπου το 1 το αντικαθιστώ για κάθε νούμερο αρχείου. Για πιο γενική εντολή, μπορούμε να το τρέξουμε με for loop: 
+(i., ii.) Παίρνω τα αρχεία από το /tmp/lab04 και μαζί το Makefile. Για να τα τρέξω μπορώ να χρησιμοποιήσω την εντολή make ή αν δεν θέλω να χρησιμοποιήσω το Makefile, τότε μπορώ να κάνω "gcc example1.c -o example1", όπου το 1 το αντικαθιστώ για κάθε νούμερο αρχείου. Για πιο γενική εντολή, μπορούμε να το τρέξουμε με for loop: 
 for i in {1..5}; do gcc example$i.c -o example$i; done
 
 To output της εντολής make είναι:
@@ -35,3 +35,11 @@ example2
 >>>>>>>
 Current Process ID (PID): 3074633
 Parent Process ID (PPID): 3074227
+
+(iii.) 
+1. Example1: 
+2. Example2:
+3. Example3:
+4. Example4:
+5. Example5:
+
